@@ -1,3 +1,17 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.content {
+	min-height: 100%;
+	margin-bottom:-50px;
+}
+.content:after{
+	content: "";
+	display: block;
+	height:50px;
+}
+
 .title {
 	display:none;
 }
@@ -5,21 +19,16 @@
 	padding:15px 0px;
 }
 .jumbotron{
+	background-color: #f5f5f5;
 	padding:7rem 2rem;
 	border-radius: 0;
 }
-.spacer{
-	height:200px;
-	border:none;
-}
-footer {
+
+.footer {
 	color:#666;
-    background-color: #f5f5f5;
-    margin:0px;
-    position:absolute;
-    width:100%;
-    bottom:0px;
+	background-color: #f5f5f5;
 }
+
 footer p {
 	padding:15px 0px;
 	margin:0px;
