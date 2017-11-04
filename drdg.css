@@ -2,6 +2,17 @@ html, body {
 	height: 100%;
 	margin: 0;
 }
+a {
+	color:#006AA9;
+}
+
+a:hover {
+	color:#007bff;
+}
+
+a:visited {
+	color:#CE171F;
+}
 .content {
 	min-height: 100%;
 	margin-bottom:-50px;
@@ -23,19 +34,9 @@ html, body {
 	padding:7rem 2rem;
 	border-radius: 0;
 }
-
-a {
-	color:#006AA9;
+.carousel{
+	margin:10px 0px 30px 0px;
 }
-
-a:hover {
-	color:#007bff;
-}
-
-a:visited {
-	color:#CE171F;
-}
-
 .footer {
 	color:#666;
 	background-color: #f5f5f5;
