@@ -43,7 +43,7 @@ a:visited {
 }
 .carousel-item{
 	opacity:0;
-	transition: opacity 1.2s ease,-webkit-opacity 1.2s ease;
+	transition: opacity .6s ease,-webkit-opacity .6s ease;
 }
 .carousel-item.active,.carousel-item.carousel-item-left{
 	transform:none;
