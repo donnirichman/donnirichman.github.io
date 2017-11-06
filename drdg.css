@@ -58,7 +58,7 @@ a:visited {
 	opacity:1;
 	display:block;
 }
-carousel-indicators li:hover{
+.carousel-indicators li:hover{
 	cursor:pointer;
 }
 .carousel-control-next-icon {
