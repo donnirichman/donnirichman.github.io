@@ -45,12 +45,18 @@ a:visited {
 	opacity:0;
 	transition: opacity .6s ease,-webkit-opacity .6s ease;
 }
-.carousel-item.active{
-	opacity:1;
-}
-.carousel-item.carousel-item-left,.carousel-item.carousel-item-right{
+.carousel-item.active,.carousel-item.carousel-item-left{
 	transform:none;
 	opacity:1;
+}
+.carousel-item.carousel-item-right{
+	transform:none;
+	display:block;
+	opacity:0;
+}
+.carousel-item.carousel-item-prev{
+	opacity:1;
+	display:block;
 }
 .carousel-control-next-icon {
     background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333333' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
